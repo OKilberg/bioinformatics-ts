@@ -1,0 +1,22 @@
+{
+  "name": "global-alignment",
+  "version": "1.0.0",
+  "description": "Code for calculating alignment of sequences",
+  "main": "GlobalAlignment.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscar Orava Kilberg",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.15.0",
+    "@types/node": "^20.9.0",
+    "kmeans-ts": "^1.0.4",
+    "numjs": "^0.16.1",
+    "plotly.js-dist-min": "^2.27.1",
+    "scikitjs": "^1.24.0"
+  },
+  "devDependencies": {
+    "@types/numjs": "^0.16.7"
+  }
+}

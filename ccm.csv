@@ -1,0 +1,93 @@
+From,To,Enzyme
+Glucose [c],Glucose-6-phosphate [c],Enzyme1
+Glucose-6-phosphate [c],Fructose-6-phosphate [c],Enzyme2
+Fructose-6-phosphate [c],Glucose-6-phosphate [c],Enzyme2
+Fructose-6-phosphate [c],Fructose-1-6-phosphate [c],Enzyme3
+Fructose-1-6-phosphate [c],Dihydroxyacetone phosphate [c],Enzyme4
+Fructose-1-6-phosphate [c],Glyceraldehyde 3-phosphate [c],Enzyme4
+Dihydroxyacetone phosphate [c],Glyceraldehyde 3-phosphate [c],Enzyme5
+Glyceraldehyde 3-phosphate [c],1-3-Bisphosphoglycerate [c],Enzyme6
+1-3-Bisphosphoglycerate [c],Glyceraldehyde 3-phosphate [c],Enzyme7
+1-3-Bisphosphoglycerate [c],3-Phosphoglycerate [c],Enzyme8
+3-Phosphoglycerate [c],2-Phosphoglycerate [c],Enzyme9
+2-Phosphoglycerate [c],3-Phosphoglycerate [c],Enzyme9
+2-Phosphoglycerate [c],Phosphoenolpyruvate [c],Enzyme10
+Phosphoenolpyruvate [c],2-Phosphoglycerate [c],Enzyme10
+Phosphoenolpyruvate [c],Pyruvate [c],Enzyme11
+Pyruvate [c],Lactate [c],Enzyme12
+Pyruvate [m],Lactate [c],Enzyme12
+Pyruvate [c],Acetyl CoA [c],Enzyme13
+Acetyl CoA [c],Citrate [m],Enzyme14
+Citrate [m],Isocitrate [m],Enzyme15
+Isocitrate [m],Citrate [m],Enzyme15
+Isocitrate [m],2-Oxoglutarate [m],Enzyme16
+2-Oxoglutarate [m],Succinate [m],Enzyme17
+Succinate [m],Fumarate [m],Enzyme18
+Fumarate [m],Succinate [m],Enzyme18
+Fumarate [m],Malate [m],Enzyme19
+Malate [m],Fumarate [m],Enzyme19
+Malate [m],Oxaloacetate [m],Enzyme20
+Oxaloacetate [m],Malate [m],Enzyme20
+Oxaloacetate [m],Citrate [m],Enzyme21
+Citrate [m],Citrate [c],Transporter1
+Citrate [c],Citrate [m],Transporter1
+Citrate [c],Isocitrate [c],Enzyme22
+Isocitrate [c],Citrate [c],Enzyme22
+Phosphoenolpyruvate [c],Oxaloacetate [m],Enzyme23
+Citrate [c],Acetyl CoA [c],Enzyme24
+Isocitrate [c],2-Oxoglutarate [c],Enzyme16
+2-Oxoglutarate [c],2-Oxoglutarate [m],Transporter2
+2-Oxoglutarate [m],2-Oxoglutarate [c],Transporter2
+Malate [m],Pyruvate [m],Enzyme25
+Glucose-6-phosphate [c],6-Phosphogluconolactone [c],Enzyme26
+6-Phosphogluconolactone [c],6-Phosphogluconate [c],Enzyme27
+6-Phosphogluconate [c],Ribulose-5-phosphate [c],Enzyme28
+Ribulose-5-phosphate [c],Xylulose-5-phosphate [c],Enzyme29
+Ribulose-5-phosphate [c],Ribose-5-phosphate [c],Enzyme30
+Xylulose-5-phosphate [c],Ribulose-5-phosphate [c],Enzyme31
+Ribose-5-phosphate [c],Ribulose-5-phosphate [c],Enzyme32
+Xylulose-5-phosphate [c],Fructose-6-phosphate [c],TKT
+Xylulose-5-phosphate [c],Glyceraldehyde 3-phosphate [c],TKT
+Xylulose-5-phosphate [c],Glyceraldehyde 3-phosphate [c],TKT
+Xylulose-5-phosphate [c],Ribose-5-phosphate [c],TKT
+Xylulose-5-phosphate [c],Seduheptulose-7-phosphate [c],TKT
+Ribose-5-phosphate [c],Xylulose-5-phosphate [c],TKT
+Ribose-5-phosphate [c],Seduheptulose-7-phosphate [c],TKT
+Ribose-5-phosphate [c],Glyceraldehyde 3-phosphate [c],TKT
+Glyceraldehyde 3-phosphate [c],Xylulose-5-phosphate [c],TKT
+Glyceraldehyde 3-phosphate [c],Ribose-5-phosphate [c],TKT
+Glyceraldehyde 3-phosphate [c],Seduheptulose-7-phosphate [c],TKT
+Glyceraldehyde 3-phosphate [c],Seduheptulose-7-phosphate [c],TALDO
+Glyceraldehyde 3-phosphate [c],Fructose-6-phosphate [c],TALDO
+Glyceraldehyde 3-phosphate [c],Erythrose-4-phosphate [c],TALDO
+Seduheptulose-7-phosphate [c],Xylulose-5-phosphate [c],TKT
+Seduheptulose-7-phosphate [c],Glyceraldehyde 3-phosphate [c],TKT
+Seduheptulose-7-phosphate [c],Glyceraldehyde 3-phosphate [c],TALDO
+Seduheptulose-7-phosphate [c],Ribose-5-phosphate [c],TKT
+Seduheptulose-7-phosphate [c],Erythrose-4-phosphate [c],TALDO
+Seduheptulose-7-phosphate [c],Fructose-6-phosphate [c],TALDO
+Erythrose-4-phosphate [c],Xylulose-5-phosphate [c],TKT
+Erythrose-4-phosphate [c],Glyceraldehyde 3-phosphate [c],TKT
+Erythrose-4-phosphate [c],Glyceraldehyde 3-phosphate [c],TALDO
+Erythrose-4-phosphate [c],Seduheptulose-7-phosphate [c],TALDO
+Erythrose-4-phosphate [c],Fructose-6-phosphate [c],TKT
+Erythrose-4-phosphate [c],Fructose-6-phosphate [c],TALDO
+Fructose-6-phosphate [c],Erythrose-4-phosphate [c],TALDO
+Fructose-6-phosphate [c],Erythrose-4-phosphate [c],TKT
+Fructose-6-phosphate [c],Seduheptulose-7-phosphate [c],TALDO
+Fructose-6-phosphate [c],Glyceraldehyde 3-phosphate [c],TALDO
+Fructose-6-phosphate [c],Xylulose-5-phosphate [c],TKT
+Glucose [c],ADP-Glucose [c],Enzyme33
+ADP-Glucose [c],Glycogen [c],Enzyme34
+Glycogen [c],Glucose [c],Enzyme35
+Oxaloacetate [m],Aspartate,PseudoEnzymes
+Oxaloacetate [m],Asparagine,PseudoEnzymes
+Acetyl CoA [c],Fatty acids,PseudoEnzymes
+Pyruvate [m],Alanine,PseudoEnzymes
+Pyruvate [c],Alanine,PseudoEnzymes
+3-Phosphoglycerate [c],Serine,PseudoEnzymes
+3-Phosphoglycerate [c],Cysteine,PseudoEnzymes
+3-Phosphoglycerate [c],Glycine,PseudoEnzymes
+2-Oxoglutarate [m],Glutamine,PseudoEnzymes
+2-Oxoglutarate [m],Glutamate,PseudoEnzymes
+Ribose-5-phosphate [c],Nucleotides,PseudoEnzymes
